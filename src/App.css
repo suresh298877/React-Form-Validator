@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+/* Form Container */
+#registration-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9ce586;
+  border: 1px solid #9ce586;
+  border-radius: 5px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+/* Form Label */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form Input */
+input,
+select {
+  width: 90%;
+  padding: 8px;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-row label {
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
